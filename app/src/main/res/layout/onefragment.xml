@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.kk.as.nura.negavitionbyarun.activity.fragment.fragmentOne">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/cardview1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="3dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="FROM"
+                android:textSize="18sp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
+            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="30dp">
+                <ImageView
+                    android:layout_width="35dp"
+                    android:src="@drawable/card1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="-8dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/depart"
+                android:textSize="18sp"
+                android:id="@+id/depart"
+                android:layout_marginLeft="75dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/cardview2"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="3dp"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="TO"
+                android:textSize="18sp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="30dp">
+                <ImageView
+                    android:layout_width="35dp"
+                    android:src="@drawable/card1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="-8dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/arrival"
+                android:textSize="18sp"
+                android:id="@+id/arrival"
+                android:layout_marginLeft="75dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/cardview3"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="3dp"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Date Of Journey"
+                android:textSize="18sp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <ImageView
+                    android:layout_width="35dp"
+                    android:src="@drawable/card4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="-8dp"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Choose Time Here"
+                android:textSize="18sp"
+                android:layout_marginLeft="75dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/button"
+            android:text="Search  "
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:textAlignment="textEnd"
+            android:drawableEnd="@drawable/searchicon"
+            android:paddingRight="70dp"
+            android:background="@drawable/searchbotton"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/searchicon" />
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

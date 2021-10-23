@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/acitvity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kk.as.nura.negavitionbyarun.activity.activities.about_ticket_activity">
+    <include layout="@layout/toolbar"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/mylikebustwo"
+        android:scaleType="fitXY"
+        android:layout_height="170dp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/aboutticketrecycler"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="About App">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item1"
+                    android:icon="@drawable/realtap11"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/item2"
+                    android:icon="@drawable/realtap33"
+                    android:title="All Gates" />
+                <item
+                    android:id="@+id/item3"
+                    android:icon="@drawable/citychurch11"
+                    android:title="All Cities" />
+                <item android:id="@+id/atm"
+                    android:icon="@drawable/icon3"
+                    android:title="ATM Info"
+                    />
+
+
+            </group>
+        </menu>
+
+
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/item4"
+                    android:icon="@drawable/feedbackmenu"
+                    android:title="Feedback" />
+
+                <item
+                    android:id="@+id/item5"
+                    android:icon="@drawable/aboutmenu"
+                    android:title="About" />
+                <item
+                    android:id="@+id/item6"
+                    android:icon="@drawable/exitmenu"
+                    android:title="Exit"/>
+            </group>
+
+
+        </menu>
+
+    </item>
+
+</menu>

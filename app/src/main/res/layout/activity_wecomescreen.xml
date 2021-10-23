@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wecomescreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.kk.as.nura.negavitionbyarun.activity.model.wecomescreen">
+     <ImageView
+         android:id="@+id/imageView3"
+         android:layout_width="100dp"
+         android:layout_gravity="center"
+         android:layout_marginTop="220dp"
+         android:layout_height="100dp"
+         android:src="@drawable/logoapp" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="5mm"
+        android:text="Nura Express"
+        android:textColor="#ffffff"/>
+
+
+
+</LinearLayout>
+
+
+<!--
+
+
+-->

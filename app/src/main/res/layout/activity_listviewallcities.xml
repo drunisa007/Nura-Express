@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_listviewallcities"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kk.as.nura.negavitionbyarun.activity.listviewallcities">
+    <include layout="@layout/toolbar"/>
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.SearchView>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="1.3dp"/>
+
+    <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/fastscrollallgate"
+        android:layout_height="match_parent">
+
+    </com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView>
+
+
+</LinearLayout>

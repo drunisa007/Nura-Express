@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:id="@+id/edittexttopup"
+            android:inputType="phone"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Top Up Pin here"
+            android:layout_height="match_parent" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/buttoncancel"
+            android:textColor="#fff"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/layout2"
+            android:layout_marginLeft="5dp"
+            android:text="Cancel"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/buttontopup"
+            android:text="Top Up"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/layout1"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

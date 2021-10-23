@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/forgridcardclick"
+        android:layout_height="180dp"
+        android:id="@+id/imageView2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/logoapp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Nura Express"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

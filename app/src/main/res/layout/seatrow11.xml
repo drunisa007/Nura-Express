@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:buttonTint="#080808"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/radioButton"
+                            android:layout_alignBottom="@+id/radioButton"
+                            android:layout_marginLeft="12dp"
+                            android:textColor="#080808"
+                            android:layout_marginStart="12dp"
+                            android:layout_toEndOf="@+id/radioButton"
+                            android:layout_toRightOf="@+id/radioButton"
+                            android:text="Available Seat" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#651FFf"
+                            android:checked="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/radioButton1"
+                            android:layout_alignBottom="@+id/radioButton1"
+                            android:layout_marginLeft="12dp"
+                            android:textColor="#651FFf"
+                            android:layout_marginStart="12dp"
+                            android:layout_toEndOf="@+id/radioButton1"
+                            android:layout_toRightOf="@+id/radioButton1"
+                            android:text="Booked Seat" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="wrap_content"
+                            android:buttonTint="#ff0084"
+                            android:layout_height="wrap_content"
+                            android:checked="true" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ff0084"
+                            android:layout_alignBaseline="@+id/radioButton2"
+                            android:layout_alignBottom="@+id/radioButton2"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_toEndOf="@+id/radioButton2"
+                            android:layout_toRightOf="@+id/radioButton2"
+                            android:text="For ladies" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radioButton4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorAccent"
+                            android:checked="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/radioButton4"
+                            android:layout_alignBottom="@+id/radioButton4"
+                            android:layout_marginLeft="12dp"
+                            android:textColor="@color/colorAccent"
+                            android:layout_marginStart="12dp"
+                            android:layout_toEndOf="@+id/radioButton4"
+                            android:layout_toRightOf="@+id/radioButton4"
+                            android:text="Selected Seat" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="You Are Going From Mogok To Mandalay"
+                    android:textStyle="bold"
+                    android:id="@+id/textviewforseatroute"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#fff"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="Please Choose Your Seat"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textviewforchooseseat"
+                    android:textSize="18sp"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="2.5dp"
+                android:id="@+id/driver"
+                android:onClick="onButtonClick"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="3dp"
+                android:drawableEnd="@drawable/driverr"
+                android:paddingRight="25dp"
+                android:drawableRight="@drawable/driverr" />
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="1dp"
+            android:rowCount="10">
+            <Button
+                style="@style/seatsizebook"
+                android:id="@+id/one"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="1" />
+
+            <Button
+                android:id="@+id/two"
+                style="@style/seatsize"
+                android:text="2" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/three"
+
+                android:layout_marginRight="3dp"
+                android:text="3" />
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/four"
+                android:text="4" />
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/five"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="5" />
+
+            <Button
+                style="@style/seatsizebook"
+                android:id="@+id/six"
+
+                android:text="6" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/seven"
+
+                android:layout_marginRight="3dp"
+                android:text="7" />
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/eight"
+                android:text="8" />
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/nine"
+
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="9" />
+
+            <Button
+                android:id="@+id/ten"
+                style="@style/seatsize"
+                android:text="10" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsizebook"
+                android:id="@+id/eleven"
+
+                android:layout_marginRight="3dp"
+                android:text="11" />
+
+            <Button
+                android:id="@+id/twelve"
+
+                style="@style/seatsize"
+                android:text="12" />
+            <Button
+                android:id="@+id/thirteen"
+
+                style="@style/seatsizeladies"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="13" />
+
+            <Button
+                android:id="@+id/fourteen"
+                style="@style/seatsize"
+                android:text="14" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/fifthteen"
+                android:layout_marginRight="3dp"
+                android:text="15" />
+
+            <Button
+                android:id="@+id/sixteen"
+                style="@style/seatsize"
+                android:text="16" />
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/seventeen"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="17" />
+
+            <Button
+                style="@style/seatsizebook"
+                android:id="@+id/eighteen"
+                android:text="18" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/nighteen"
+
+                android:layout_marginRight="3dp"
+                android:text="19" />
+
+            <Button
+                android:id="@+id/tweenty"
+                style="@style/seatsizeladies"
+                android:text="20" />
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/tweentyone"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="21" />
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/tweentytwo"
+                android:text="22" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/tweentythree"
+                android:layout_marginRight="3dp"
+                android:text="23" />
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/tweentyfour"
+                android:text="24" />
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/tweentyfive"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="25" />
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/tweentysix"
+                android:text="26" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                 android:id="@+id/tweentyseven"
+                android:layout_marginRight="3dp"
+                android:text="27" />
+
+            <Button
+                style="@style/seatsizebook"
+                android:id="@+id/tweentyeight"
+                android:text="28" />
+            <Button
+                style="@style/seatsizebook"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+                 android:id="@+id/tweentynine"
+                android:text="29" />
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/thirty"
+                android:text="30" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/thirtytone"
+
+                android:layout_marginRight="3dp"
+                android:text="31" />
+
+            <Button
+                android:id="@+id/thirytwo"
+                style="@style/seatsize"
+                android:text="32" />
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/thirtythree"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="33" />
+
+            <Button
+                android:id="@+id/thirtyfour"
+                style="@style/seatsize"
+                android:text="34" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/thirtyfive"
+
+                android:layout_marginRight="3dp"
+                android:text="35" />
+
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/thirtysix"
+
+                android:text="36" />
+            <Button
+                style="@style/seatsize"
+                android:id="@+id/thirtyseven"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+
+                android:text="37" />
+
+            <Button
+                android:id="@+id/thirtyeight"
+                style="@style/seatsize"
+                android:text="38" />
+            <Space
+                android:layout_width="50dp"
+                />
+
+
+
+            <Button
+                style="@style/seatsize"
+                 android:id="@+id/thirtynine"
+                android:layout_marginRight="3dp"
+                android:text="39" />
+
+            <Button
+                android:id="@+id/fourty"
+                style="@style/seatsize"
+                android:text="40" />
+
+
+
+
+        </GridLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginTop="3dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/textviewseatchoose"
+                    android:layout_marginBottom="3dp"
+                    android:text="You Choose Seat Number 0"
+
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="Price is 5000 Kyats"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        android:id="@+id/buttonbuy"
+                        android:background="#212121"
+                        android:text="Buy"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

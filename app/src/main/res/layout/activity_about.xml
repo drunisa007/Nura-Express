@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_about"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.kk.as.nura.negavitionbyarun.activity.about">
+            <include
+                layout="@layout/toolbar"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="About"
+                android:textStyle="italic"
+                android:layout_margin="14dp"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/colorPrimary"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/about"
+                android:textSize="17sp"
+                android:layout_marginTop="18dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Developed By : "
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/colorPrimary"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" - Aung Thu"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" - Chan Myae Thu"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" - Ye Win Aung"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" - Hnin Nandar Aye"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=" - Sai Swan Sai Pha"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:background="@color/colorPrimary"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Team Name : AI (ComputerUniversity Mandalay)"
+                android:layout_margin="15dp"
+                android:textSize="17sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>
+
+

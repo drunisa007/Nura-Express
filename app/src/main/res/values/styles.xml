@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="seatsize">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:background">@drawable/buttonpress</item>
+    </style>
+    <style name="seatsizebook">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:background">#651FFf</item>
+    </style>
+    <style name="seatsizeladies">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:background">#ff0084</item>
+    </style>
+    <style name="seatsizeselected">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+</resources>

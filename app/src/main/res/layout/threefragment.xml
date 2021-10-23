@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kk.as.nura.negavitionbyarun.activity.fragment.fragmentThree">
+<android.support.v7.widget.SearchView
+    android:layout_width="match_parent"
+    android:id="@+id/searchviewthree"
+    android:layout_height="wrap_content">
+</android.support.v7.widget.SearchView>
+    <View
+        android:layout_width="match_parent"
+        android:background="#B6B6B6"
+        android:layout_marginBottom="3dp"
+        android:layout_height="1.3dp"/>
+    <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fast_scrollerfragment"
+        app:fastScrollPopupBgColor="@color/colorAccent"
+        app:fastScrollThumbColor="@color/colorAccent"
+        android:layout_marginBottom="50dp"
+
+
+        >
+
+    </com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView>
+
+
+</LinearLayout>

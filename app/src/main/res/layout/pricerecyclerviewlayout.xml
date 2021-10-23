@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="match_parent"
+    android:text="Mandalay to Mogok "
+    android:textSize="20sp"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:layout_marginLeft="3dp"
+    android:id="@+id/routetextview"
+    android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_width="match_parent"
+            android:id="@+id/pricetextview"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:text="40000"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Kyats"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+<!--
+
+    />-->

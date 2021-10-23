@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Nura Express</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutcitytext1">\t Mogok is a city in the Pyin Oo Lwin District of the Mandalay Region of Myanmar,located 200km north of Mandalay
+        148km north-east of Shwebo.Mogok was in Shan State and After British,the town was put in Mandalay Region alogn with Pyin Oo Lwin
+    </string>
+    <string name="aboutcitytext2">
+
+        \t At 1170 meters in elevation,the city has a fairly temperate cilimate year-round,and is home to Bamar,Shan
+        ,Lisu,Palaung,and Karenn ethnic groups as well as Gurkhas,Indian and Chinese.The city is composed of two towns mMogok
+        and KyatPyin .Mogok is four miles long nad two miles wide.it is situated in a valley surrounded by a
+        large number of mountains ther are no mountains thsis is hilly area.Kyat pyin lies about 7 miles.
+    </string>
+        <string name="aboutcitytext3">
+        \t Mogok is a city in the Pyin Oo Lwin District of the Mandalay Region of Myanmar,located 200km north of Mandalay
+        148km north-east of Shwebo.Mogok was in Shan State and After British,the town was put in Mandalay Region alogn with Pyin Oo Lwin
+    </string>
+    <string name="aboutcitytext4">
+
+        ...At 1170 meters in elevation,the city has a fairly temperate cilimate year-round,and is home to Bamar,Shan
+        ,Lisu,Palaung,and Karenn ethnic groups as well as Gurkhas,Indian and Chinese.The city is composed of two towns mMogok
+        and KyatPyin .Mogok is four miles long nad two miles wide.it is situated in a valley surrounded by a
+        large number of mountains ther are no mountains thsis is hilly area.Kyat pyin lies about 7 miles.
+    </string>
+    <string name="depart">Choose Your Departing City</string>
+    <string name="arrival">Choose Your Arrival City</string>
+    <string name="titleNotFound">Hello sorry sir ! there is no such gate for your journey</string>
+    <string name="notFound">we can not find your route but we can show your  deparing city</string>
+    <string name="about">\tThis application is intended for users who want to buy ticket easily and without going outdoor.
+        Users can buy ticket easily because it categorizes according to their cities and respective car gates and there is also
+        brief description about the respective arrival cities.
+    </string>
+
+</resources>

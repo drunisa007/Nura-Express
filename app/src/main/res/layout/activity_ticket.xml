@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_ticketone"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+>
+<include layout="@layout/toolbar"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="20dp"
+        app:cardElevation="4dp"
+
+        android:layout_height="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="GATE NAME"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Myat Mandalar"
+                    android:id="@+id/textviewGatename"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Journey"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Mandalay To Mogok"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/textviewJourney"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Price"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="5000 Kyats"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Seat Number"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="1"
+                    android:layout_margin="10dp"
+                    android:id="@+id/textviewseatnumber"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Deparing Time"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="7:30 A.M"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        app:cardElevation="10dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/qrcodeimageview"
+            android:scaleType="fitXY"
+            android:layout_height="fill_parent" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

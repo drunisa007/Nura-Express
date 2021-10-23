@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#00e5ff</color>
+    <color name="tapclick">#40C4FF</color>
+    <color name="tap">#546068</color>
+    <color name="text">#1e88e5</color>
+    <color name="linearcolor">#ffffff</color>
+    <color name="gridview">#cfd8dc</color>
+    <color name="black">#000000</color>
+    <color name="cardcolor">#36f107</color>
+</resources>
